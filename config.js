@@ -3,7 +3,7 @@ const config = {
         // host: "47.74.52.157",
         host: "127.0.0.1",
         user: "root",
-        password: "123456",
+        password: "zilv123456", // 和自律密码一致。统一台服务器
         database: "decideSql",
     }
 }
