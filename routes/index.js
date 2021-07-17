@@ -1,7 +1,7 @@
 const router = require('koa-router')();
 const superagent = require('superagent');
 const {query} = require('../utils/mysql');
-
+router.prefix('/api')
 router.post('/login', async (ctx, next) => {
   // 获取openid
   let { code } = ctx.request.body;
